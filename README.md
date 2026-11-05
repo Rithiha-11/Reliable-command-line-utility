@@ -26,7 +26,7 @@ Step 2: Open a terminal in the folder containing the source file.
 Step 3: Compile the program using:
 
 ```bash
-g++ "Reliable command line utility.cpp" -o expense_tracker
+g++ main.cpp -o expense_tracker
 ```
 
 Step 4: Run the program:
@@ -50,7 +50,7 @@ The program displays a menu with five options:
 - Exit
 
 ### Input Validation
-The program checks for invalid menu choices, non-numeric amounts, negative amounts, and empty categories.
+The program checks for invalid menu choices, non-numeric amounts, negative amounts.
 
 ### Author
 Rithiha-11
